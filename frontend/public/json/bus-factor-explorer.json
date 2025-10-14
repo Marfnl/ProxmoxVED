@@ -1,0 +1,41 @@
+{
+  "name": "Bus Factor Explorer",
+  "slug": "bus-factor-explorer",
+  "categories": [
+    1,
+    9
+  ],
+  "date_created": "2025-10-15",
+  "type": "ct",
+  "updateable": true,
+  "privileged": false,
+  "interface_port": 8080,
+  "documentation": "https://github.com/JetBrains-Research/bus-factor-explorer?tab=readme-ov-file#readme",
+  "website": "https://github.com/jetbrains-research/bus-factor-explorer",
+  "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/jetbrains.webp",
+  "config_path": "/opt/bus-factor-explorer/???.yml",
+  "description": "A web app for exploring Bus Factor of GitHub projects. Bus factor (BF) is a metric that tracks knowledge distribution in a project. It is the minimal number of engineers that have to leave for a project to stall.",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/bus-factor-explorer.sh",
+      "resources": {
+        "cpu": 2,
+        "ram": 4096,
+        "hdd": 40,
+        "os": "debian",
+        "version": "12"
+      }
+    }
+  ],
+  "default_credentials": {
+    "username": null,
+    "password": null
+  },
+  "notes": [
+    {
+      "text": "Please adjust the Proxmox credentials in the configuration file!",
+      "type": "info"
+    }
+  ]
+}
