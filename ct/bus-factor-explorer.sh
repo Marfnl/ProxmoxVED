@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/marfnl/ProxmoxVED/tree/Bus-Factor-Explorer/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/Marfnl/ProxmoxVED/Bus-Factor-Explorer/misc/build.func)
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: Marfnl
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
